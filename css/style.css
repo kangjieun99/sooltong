@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* category */
+#category .area {width: 1224px; margin: 0 auto;}
+#category h2 {text-align: center;padding: 65px 0 50px;} 
+#category .cate_box {width: 1104px; height: 129px; margin: 0 auto; background: #a4cb50;
+border-radius: 37px; margin-bottom: 50px; }
+#category .atmosphere ul {padding-top: 15px; width: 840px; height: 105px; height: 90px;text-align: center; font-family: 'BMYEONSUNG'; font-size: 28px; margin: 0 auto;}
+#category .atmosphere ul li{float: left; padding-right: 60px; line-height: 50px; text-align: center;}
+#category .atmosphere ul li.on a {color: #fff;}
+#category .atmosphere ul li:last-child {padding-right: 0;}
+#category .atmosphere ul li a {display: block;text-align: center;transition: all 0.2s;color: #000;}
+#category .atmosphere ul li a:hover {color: #fff; transition: all 0.2s;}
+
+#category .select {float:left;}
+#category .option {font-weight: 400; z-index:50;}
+#category .option .address i {font-size: 15px; margin-right: 5px;}
+
+
+/* 요즘 뜨는 곳 */
+#category .hot {height: 450px; }
+#category h3 {font-size: 25px; font-weight: 500; margin: 43px 0 15px; display: block;}
+#category .hot > div {position: relative; float: left; width: 49%; margin-left:0; box-sizing: border-box;}
+/* + 효과 */
+#category .hot > div a {display: block; width: 599.75px; height: 400.48px; position: relative;}
+#category .hot > div a:after,#category .hot > div a:before {
+    content:''; position: absolute; top: 50%; left: 50%; z-index:1;
+    transform: translate(-50%,-50%); transition: all 0.4s ease; background: #fff; opacity: 0;}
+#category .hot > div a:after {width: 2px; height: 100px; top: 0;}
+#category .hot > div a:before {width: 100px; height: 2px; left: 100%;}
+
+#category .hot > div a:hover:before,#category .hot > div a:hover:after{opacity: 1; left: 50%; top: 50%;}
+
+
+#category .hot > div img {width: 599.75px;}
+#category .hot > div + div {margin-left:2%;}
+#category .hot > div .text {position: absolute; bottom: 0; left: 0; width: 100%; height: 105px; background: rgba(0,0,0,0.7); color: #fff; padding: 25px; box-sizing: border-box;}
+#category .hot > div .text h4 {padding-bottom: 5px; font-size: 23px; font-weight: 500; background: url("../images/sub/sub1_category/star.png")no-repeat right center; padding-right: 10px;}
+#category .hot > div .text h4 span {font-size: 16px; font-weight: 300;}
+#category .hot > div .text p {font-size: 18px;}
+
+
+/* 신상술집 */
+#category .new { font-weight: 400; height: 390px;}
+#category .new > div {float: left; width: 32.66%; height: 350px;box-sizing: border-box;}
+#category .new > div img,#category .good .list div img{width: 399.75px; height: 265px; }
+#category .new > div + div {margin-left: 1%;}
+#category .new .text ,#category .good .list .text {padding: 10px 0;}
+#category .new .text ul  {width: 100%; }
+#category .new .text ul li,#category .good .list ul li {float: left;}
+#category .new .text ul li h4 ,#category .good .list ul li h4 {font-size: 18px; font-weight: 500;}
+#category .new .text ul li p ,#category .good .list ul li p {padding-top: 8px; height: 16px; width: 90px; background: url("../images/sub/sub1_category/star_small.png")no-repeat center center;padding-left: 10px;}
+
+/* + 효과 */
+#category .new > div a {display: block; width: 399.75px; height: 265px; position: relative;}
+#category .new > div a:after,#category .new > div a:before {
+    content:''; position: absolute; top: 50%; left: 50%; z-index:1;
+    transform: translate(-50%,-50%); transition: all 0.4s ease; background: #fff; opacity: 0;}
+#category .new > div a:after {width: 2px; height: 60px; top: 0;}
+#category .new > div a:before {width: 60px; height: 2px; left: 100%;}
+
+#category .new > div a:hover:before,#category .new > div a:hover:after{opacity: 1; left: 50%; top: 50%;}
+
+
+
+
+/* 분위기좋은 */
+#category .good  {margin-bottom: 100px;}
+#category .good .list {font-weight: 400;}
+#category .good .list > div{float: left; width: 32.66%; margin-bottom: 40px; height: 320px;}
+#category .good .list div + div {margin-left: 1%;}
+#category .good .list .text{width: 100%;}
+
+/* + 효과 */
+#category .list > div a {display: block; width: 399.75px; height: 265px; position: relative; }
+#category .list > div a:after,#category .list > div a:before {
+    content:''; position: absolute; top: 50%; left: 50%; z-index:1;
+    transform: translate(-50%,-50%); transition: all 0.4s ease; background: #fff; opacity: 0;}
+#category .list > div a:after {width: 2px; height: 60px; top: 0;}
+#category .list > div a:before {width: 60px; height: 2px; left: 100%;}
+#category .list > div a:hover:before,#category .list > div a:hover:after{opacity: 1; left: 50%; top: 50%;}
+
+
+
+
+/* array 평점순 리뷰순 선택 */
+.select {position: absolute; top: 0; left: 0; width: 65px; height: 30px; overflow: hidden; border-bottom: 2px solid #000; background: rgba(255,255,255,0.8);font-weight: 400;}
+.select ul {}
+.select ul li {}
+.select ul li a {display: block; height: 30px; line-height: 30px; 
+color: #000; }
+.select .arrow_down {top: 10px; right: 0;}
+.select.active .arrow_down {-webkit-transform: rotateX(180deg); transform: rotateX(180deg);}
+

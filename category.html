@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>카테고리별 술집</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="headerWrap">
+            <header id="header">
+                <div class="area">
+                    <h1 class="logo p_a">
+                        <a href="index.html"><img src="images/common/logo.png" alt="술통"></a>
+                    </h1>
+                    <nav id="gnb">
+                        <h2 class="blind">주메뉴</h2>
+                        <ul>
+                            <li class="gnb1">
+                                <a href="#">#술통</a>
+                                <ul>
+                                    <li><a href="#">술통소개</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnb2">
+                                <a href="#">#보자</a>
+                                <ul>
+                                    <li><a href="#">광고영상</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnb3">
+                                <a href="#">#고르자</a>
+                                <ul>
+                                    <li><a href="#">인기순</a></li>
+                                    <li><a href="#">메뉴별</a></li>
+                                    <li><a href="#">분위기별</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnb4">
+                                <a href="#">#예약하자</a>
+                                <ul>
+                                    <li><a href="#">실시간 좌석현황</a></li>
+                                    <li><a href="#">예약하기</a></li>
+                                </ul>
+                            </li>
+                            <li class="gnb5">
+                                <a href="#">#즐기자</a>
+                                <ul>
+                                    <li><a href="#">술게임하기</a></li>
+                                    <li><a href="#">돌려돌려돌림판</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <section id="category">
+            <div class="area clearfix">
+                <h2><img src="images/sub/sub1_category/title_atmosphere.png" alt=""></h2>
+                <div class="cate_box">
+                    <div class="atmosphere">
+                        <ul class="clearfix">
+                            <li class="on"><a href="">분위기좋은</a></li>
+                            <li><a href="">조용한</a></li>
+                            <li><a href="">데이트</a></li>
+                            <li><a href="">회식자리</a></li>
+                            <li><a href="">헌팅</a></li>
+                            <li><a href="">생일파티</a></li>
+                            <li><a href="">신나는 / 재미있는</a></li>
+                            <li><a href="">야외 / 루프탑</a></li>
+                            <li><a href="">프라이빗한</a></li>
+                            <li><a href="">레트로</a></li>
+                            <li><a href="">인스타감성</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="option clearfix p_r">
+                    <div class="address f_r">
+                        <p><i class="fas fa-map-marker-alt"></i>서울시 강남구 강남대로 162-454</p>
+                    </div>
+                    <div class="select p_a">
+                        <ul>
+                            <li><a href="">평점순</a></li>
+                            <li><a href="">리뷰순</a></li>
+                            <li><a href="">거리순</a></li>
+                            <li><a href="">방문순</a></li>
+                        </ul>
+                        <svg class="arrow_down p_a" width="9" height="5">
+                            <path d="M0 0 L9 0 L4.5 5 Z" />
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="hot clearfix">
+                    <h3>요즘 뜨는 곳</h3>
+                    <div>
+                        <a href="info.html">
+                            <img src="images/sub/sub1_category/hot1.png" alt="">
+                            <div class="text">
+                                <h4>개화기요정 <span>(447)</span></h4>
+                                <p>센과 치히로 술집으로 유명한 강남 이자카야</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="images/sub/sub1_category/hot2.png" alt="">
+                            <div class="text">
+                                <h4>도쿄야끼 <span>(329)</span></h4>
+                                <p>술집 경성포차 해산물이 맛있는 청담 이자카야</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="new">
+                    <h3>신상 술집</h3>
+                    <div>
+                        <a href="">
+                            <img src="images/sub/sub1_category/atmosphere_img3.png" alt="">
+                            <div class="text">
+                                <ul class="clearfix">
+                                    <li><h4>텐트서울147</h4></li>
+                                    <li><p class="blind">score</p></li>
+                                    <li><span>(329)</span></li>
+                                </ul>
+                                <p>힙합이 나오는 루프탑 칵테일 펍</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="images/sub/sub1_category/atmosphere_img5.png" alt="">
+                            <div class="text">
+                                <ul class="clearfix">
+                                    <li><h4>술타래</h4></li>
+                                    <li><p class="blind">score</p></li>
+                                    <li><span>(329)</span></li>
+                                </ul>
+                                <p>강남 예쁘고 맛있는 칵테일집</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="">
+                            <img src="images/sub/sub1_category/atmosphere_img6.png" alt="">
+                            <div class="text">
+                                <ul class="clearfix">
+                                    <li><h4>취하당</h4></li>
+                                    <li><p class="blind">score</p></li>
+                                    <li><span>(329)</span></li>
+                                </ul>
+                                <p>흑당막걸리로 유명한 신논현술집</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="good">
+                    <h3>분위기 좋은</h3>
+                    <div>
+                        <article class="list clearfix">
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img10.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>데일리파티</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>감성적인 분위기 속에서 친구들과 술마시기 좋은곳</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img14.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>겐지</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>사시미와 진한 나베가 맛있는 이자카야</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img13.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>카사코로나</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>특별한 날 즐기기 좋은 분위기 루프탑라운지</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="list clearfix">
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img12.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>주막1987</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>안주와 막걸리가 맛있는 강남역 술집</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img15.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>오늘 와인 한잔</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>강남 예쁘고 맛있는 와인집</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img6.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>취하당</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>흑당막걸리로 유명한 신논현술집</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="list clearfix">
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img9.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>마코토</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>청담동일식 마코토 또 가고싶은 다이닝 이자카야</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img8.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>니집안방</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>신논현 안주와 분위기에 취하는 술집</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img7.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>루프808</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>상어칵테일이 유명한 강남술집</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="list clearfix">
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img1.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>텐트서울147</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>힙합이 나오는 루프탑 칵테일 펍</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img2.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>감성호프탭탭</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>홍대분위기좋은술집 맥주가 맛있는 감성호프</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="">
+                                    <img src="images/sub/sub1_category/atmosphere_img4.png" alt="">
+                                    <div class="text">
+                                        <ul class="clearfix">
+                                            <li><h4>무드살롱</h4></li>
+                                            <li><p class="blind">score</p></li>
+                                            <li><span>(329)</span></li>
+                                        </ul>
+                                        <p>삼성동 칵테일바 감성 돋는 라이브바</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div id="js-btn-wrap" class="btn-wrap">
+                        <a href="" class="button">추천된 술집 더보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="section fp-auto-height">
+                <footer id="footer">
+                    <div class="area clearfix">
+                        <div class="up clearfix">
+                            <div class="left">
+                                <h5>술통 고객센터</h5>
+                                <p>1234-1004</p>
+                            </div>
+                            <div class="right">
+                                <ul class="clearfix">
+                                    <li><a href="" class="blind">페이스북</a></li>
+                                    <li><a href="" class="blind">인스타그램</a></li>
+                                    <li><a href="" class="blind">유튜브</a></li>
+                                    <li><a href="" class="blind">블로그</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="down">
+                            <address>
+                                회사 : 술통(주) 주소 : 서울특별시 마포구 양화로 188 10F ~ 13F,2F층(동교동, 술통타워)<br>
+                                대표 : 강지은 사업자등록번호 : 113-81-11573<br>
+                                통신판매업신고번호 : 제 2018-서울마포-1843호<br>
+                                개인정보관리자 : 강지은 / kangjieun@seultong.kr 팩스번호 : 02-1996-0909
+                            </address>
+                            <p>Copyright&copy;seultong.co.kr All right reserved</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

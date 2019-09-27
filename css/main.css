@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* 인덱스만의 스타일 */
+#headerWrap {position: fixed; top: 0; left: 0; width: 100%; z-index:900; 
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+background: #fff;}
+
+
+/* 술통 */
+#cnt1 {background:url("../images/main/main_background.jpg") no-repeat center center; position: relative;}
+#cnt2 {background: #ffe18f url("../images/main/ad_background2.png") no-repeat 50% 60%;}
+#cnt3 {background: #f4ebda;}
+#cnt4 {background: #a4cb50;}
+#cnt5 {background: #f4ebda;}
+#cnt6 {background:url("../images/main/funny_background.jpg")no-repeat center;}
+
+#cnt1 #deco{animation:up 1.5s infinite;}
+@keyframes up{
+    0% {transform:translateY(0px);}
+    50% {transform:translateY(-40px);}
+    100% {transform:translateY(0px);}
+}
+#cnt1 #deco{position: absolute; top: 320px; left:50%; margin-left: 230px; }
+
+#cnt1 .mainlogo a img {position: absolute; top: 185.5px; left:50%; margin-left: -180px;}
+#cnt1 .area {height: 370px;}
+#cnt1 .area .txt1 a {margin-top: 80px; margin-bottom: 130px; line-height: 37px; box-sizing: border-box; padding: 27px 0; display: block;  width: 182px; height: 122px; background: #ffe84a; text-align: center; font-family: 'BMYEONSUNG'; font-size: 30px; transition: all 0.4s;}
+#cnt1 .area .txt1 a:hover {border-radius: 35px;}
+#cnt1 .area .txt1 h3 {padding-top:10px; font-size: 20px; color: #fff; font-weight: 400;}
+#cnt1 .area .txt1 p {padding-top: 8px; color: #fff; font-size: 14px;}
+#cnt1 .area .txt1 i {margin-right: 7px;}
+
+/* slidser */
+#cnt1 {}
+#multislider {position: absolute; left: 0; bottom: 50px; height: 230px; width: 100%; overflow: hidden;}
+
+#multislider .prev_next button{position:absolute;top: 50%;left: 50%;margin-top: -20px;width: 24px;height: 40px;z-index: 10}
+#multislider .prev_next .prev{margin-left: -540px;}
+#multislider .prev_next .next{margin-left: 500px;}
+
+#multislider .visual {position: relative; width: 8323px; height: 230px;}
+#multislider .visual li {float: left; margin-right: 15px;}
+
+
+
+/* 앱다운로드 팝업창 */
+#cnt1 .layer_bg {display: none; z-index:900; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.5); width: 100%; height: 100%;}
+#cnt1 .layer {padding: 40px 0; text-align: center; display: none; z-index:1000; position: absolute; bottom: 0; left: 0; width: 100%; height: 400px;background: #fff;}
+#cnt1 .layer h2 {font-size: 25px; color: #333;}
+#cnt1 .layer p {color: #54ad9b; font-weight: 500; padding: 30px 0 10px;}
+#cnt1 .layer .box { margin: 0 auto; width: 300px; height: 50px; border: 1px solid #000;border-radius: 50px;}
+#cnt1 .layer .box input {padding-top:10px; border:none; width: 200px; height: 30px; font-size: 16px;}
+#cnt1 .layer .user p{color: #666; padding-top: 25px; margin-bottom: 30px;font-size: 14px;}
+#cnt1 .layer ul { padding-top: 30px;}
+#cnt1 .layer ul li{font-weight: 400; font-size: 12px;line-height: 18px;}
+#cnt1 .layer a {position:absolute;top: 40px; left: 1250px; display: block; width: 40px; height: 40px; background: url("../images/main/close.png")no-repeat center;}
+
+
+
+
+/* 재미공감 술통광고 */
+
+#cnt2 .area h3 {padding-bottom: 15px; float: left; font-size: 22px; font-weight: 500;}
+#cnt2 .area > a {float: left; margin-top: 8px; margin-left: 470px; width: 160px; height: 17px; line-height: 17px; 
+background: url("../images/common/arrow.png")no-repeat right center; display: inline-block;
+font-size: 17px; font-weight: 400;}
+#cnt2 .area .video_box .box_up {float: left; width: 713px; height: 56px; background: #a4cb50; border: 1px solid #000;box-sizing: border-box;}
+#cnt2 .area .video_box a .box_down {float: left; width: 694px; height: 392px;  margin-left: 9px; border: 1px solid #000;box-sizing: border-box; border-top:none; background: #fff url("../images/main/play.png")no-repeat center;}
+
+
+
+
+/* #cnt3 카테고리별술집 */
+#cnt3 .area  {margin-top: 100px;}
+#cnt3 .area .category {width:1224px; height: 646px; }
+#cnt3 .area .category .left {float: left; width: 50%;}
+#cnt3 .area .category .left  ul  li {float: left; position:relative; }
+#cnt3 .area .category .left > ul > li > a,#cnt3 .area .category .right >ul> li> a{ font-weight: 500;display:inline-block; background: url("../images/common/arrow.png")no-repeat right center; width: 100px;}
+#cnt3 .area .category .left > ul > li > a{width: 80px;}
+#cnt3 .area .category .left  ul  li .text {width: 100%; height: 100%; background: rgba(0,0,0,0.4); position:absolute; top: 0; left: 0; color: #fff;
+ font-size: 30px;box-sizing: border-box; transition: all 0.3s;}
+
+#cnt3 .area .category .left  ul  li .text h4 {margin-top: 100px; font-weight: 300;
+text-align:center; line-height: 37px; box-sizing: border-box; }
+#cnt3 .area .category .left > ul > li > a,#cnt3 .area .category .right > ul > li > a {font-size: 20px; padding: 15px 0;}
+#cnt3 .area .category .left ul li ul li + li {margin-left: 20px;}
+#cnt3 .area .category .left ul li ul li a {display: block; width: 217px; height: 260px; overflow: hidden;}
+#cnt3 .area .category .left ul li ul li a:hover img,#cnt3 .area .category .right ul li ul li a:hover img {transform: scale(1.1);}
+#cnt3 .area .category .left ul li ul li a img,#cnt3 .area .category .right ul li ul li a img {transform: scale(1); transition: all 0.4s}
+
+
+
+/*#cnt3 카테고리별술집  right */
+#cnt3 .category .right {float:left; width: 50%;width: 612px; height: 620px;}
+#cnt3 .category .right ul > li {position: relative; }
+#cnt3 .category .right ul li ul {text-align: center;}
+#cnt3 .category .right ul li ul li{}
+#cnt3 .category .right ul li ul li img {width: 612px; height: 190px; }
+#cnt3 .category .right ul> li> ul >li {width: 612px; height: 190px; }
+#cnt3 .category .right ul li a .text {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); color: #fff;}
+#cnt3 .category .right .text h4 {font-size: 25px; font-weight: 300; text-align:center; line-height:35px; margin-top: 65px;}
+#cnt3 .area .category .right ul li ul li a {display: block; width: 612px; height: 190px; overflow: hidden;}
+
+
+
+
+
+/* #cnt4 실시간좌석 */
+#cnt4 {}
+#cnt4 h2{text-align: center; padding: 90px 0 10px;}
+#cnt4 .area {position: relative; background: #000; width: 1420px; margin: 0 auto;height: 634px; background: url("../images/main/seat_background2.png")no-repeat;} 
+#cnt4 .seat {position:absolute; top: 150px; left: 50%; margin-left: -345px; width: 664px; height: 480px; }
+#cnt4 .seat .top { height: 105px; padding: 60px 45px 0 45px;box-sizing: border-box;}
+#cnt4 .seat .top h4 {font-size: 25px;float: left; font-weight: 500;}
+#cnt4 .seat .top p {float:right; padding-top: 13px;font-weight: 400;}
+#cnt4 .seat .team {font-weight: 400; box-sizing: border-box; padding-top: 50px; text-align: center; height: 150px; background: #eee; font-size: 23px; line-height: 32px;}
+#cnt4 .seat .team .left {float: left; width: 50%;height: 100%;}
+#cnt4 .seat .team .right {float: left;width: 50%;}
+#cnt4 .seat a{display: block; font-size: 28px; width: 270px; height: 120px;border: 10px solid #447ad2; text-align: center; line-height: 45px; font-weight: 500; padding-top: 5px;  background: #fff; transition: all 0.4s;
+box-sizing: border-box; border-radius: 35px; margin-left: 203px; margin-top: 50px; }
+#cnt4 .seat a:hover {background: #447ad2;color: #fff; border: 10px solid #447ad2;}
+
+
+
+/* #cnt5 돌려돌려돌림판 */
+#cnt5 {position:relative;font-family: 'BMYEONSUNG';}
+#cnt5  h2 {text-align:center; padding: 50px 0 35px;}
+#cnt5 .area {width: 1224px; position:relative; }
+#cnt5 .area img {display: block; margin: 0 auto;  margin-bottom: 25px;
+ animation: rotate20 13s infinite;}
+
+@keyframes rotate20 {
+    0% {transform: rotateZ(0deg);}
+    50% {transform: rotateZ(3000deg);}
+    100% {transform: rotateZ(0deg);}
+}
+
+#cnt5 .area .button {margin-top: 10px; width: 500px; text-align: center; margin: 0 auto;}
+#cnt5 .area .button button {font-family: 'BMYEONSUNG';  color: #fff; border:none; 
+border-radius: 35px; background: #139a7a; font-size: 25px; margin: 0; width: 200px;
+height: 60px; line-height:60px; }
+#cnt5 .area .button button + button {margin-left: 20px;}
+#cnt5 .area .list {position: absolute;top: 0;right: 0; width: 220px; height: 446px; 
+background: #fff; }
+#cnt5 .area .list p {font-size: 35px; padding: 30px 60px 25px; text-align: center;}
+#cnt5 .area .list div {border: 1px solid #333; width: 175px; height: 53px; margin: 0 24px 15px;}
+
+
+
+/* #cnt6 유쾌한 술집수다 */
+#cnt6 .area {height: 700px;margin-top: 70px; position:relative;}
+#cnt6 .area h2 {float:right; margin-bottom: 25px;}
+#cnt6 .area .article { float:right; width: 1400px; height: 400px;font-weight: 400; }
+#cnt6 .area .article > div {float: right; width: 266px;margin-left: 15px; padding: 10px; box-sizing: border-box; background: #f2f2f2; }
+#cnt6 .area .article >div a img{margin-bottom: 15px;}
+#cnt6 .area .article >div span {line-height: 22px;}
+#cnt6 .area .go {float: right; margin-top: 15px;}
+#cnt6 .area .go > a {position: relative;  font-family: 'BMYEONSUNG';  font-size: 40px;
+height: 47px; margin-right: 50px;}
+#cnt6 .area .go > a:after {background: url("../images/main/go.png")no-repeat center; width: 52px;
+height: 37px; content:''; position:absolute; top: 0; right: 40;}
+#cnt6 .area .go a:hover:after{background: url("../images/main/go.on.png")no-repeat center;}

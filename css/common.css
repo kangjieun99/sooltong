@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* 웹 폰트 eot , woff2, woff, otf:opentype /ttf:truetype */
+@font-face {
+    font-family:SCdream; 
+    font-weight:300;
+    src:url("../fonts/SCDream3.otf.eot");
+    src: local("※"),
+    url("../fonts/S-CoreDream-3Light.woff2") format("woff2"),
+    url("../fonts/SCDream3.woff") format("woff"),
+    url("../fonts/SCDream3.otf") format("opentype");
+}
+@font-face {
+    font-family: SCdream;
+    font-weight: 400;
+    src: url("../fonts/SCDream4.otf.eot");
+    src: local("※"),
+    url("../fonts/S-CoreDream-4Regular.woff2") format("woff2"),
+    url("../fonts/SCDream4.woff") format("woff"),
+    url("../fonts/SCDream4.otf") format("opentype");
+}
+@font-face {
+    font-family: SCdream;
+    font-weight: 500;
+    src: url("../fonts/SCDream5.otf.eot");
+    src: local("※"),
+    url("../fonts/S-CoreDream-5Medium.woff2") format("woff2"),
+    url("../fonts/SCDream5.woff") format("woff"),
+    url("../fonts/SCDream5.otf") format("opentype");
+}
+@font-face { font-family: 'BMYEONSUNG'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+/* skip 네비게이션 */
+#skip a {position: absolute; top: 0; left: -9999px; z-index: 1000;}
+#skip a:focus {left: 0; width: 100%; height: 50px; line-height: 50px; background: #a4cb50; text-align: center; font-weight:700; color: #000;}
+
+/* 태그초기화 */
+body, h1,h2,h3,h4,h5,h6, p, ul, figure, figcaption {margin: 0; padding: 0;}
+body {font-family:SCdream, "에스코어드림","Score Dream", sans-serif; font-weight:300; font-size: 16px; color: #000; }
+h1,h2,h3,h4,h5,h6 {font-size: 100%;}
+a {text-decoration: none; color: inherit;}
+ul {list-style: none;}
+img {vertical-align: top; border:none;}
+header, nav, section, article, footer, aside, figure, figcaption {display: block;}
+address {font-style:normal;}
+
+/* 공통클래스 */
+.f_l {float: left;}
+.f_r {float: right;}
+.p_r {position: relative;}
+.p_a {position: absolute;}
+.clearfix:after , .clearfix:before {content:''; display: block; clear:both;}
+.blind {font-size:0; line-height: 0; text-indent:-9999px;}
+.area {width: 1224px; margin: 0 auto;}
+
+/* 전체 */
+#wrap {min-width: 1224px; width: 100%;}
+#header {position: relative; height: 79px; border-bottom: 1px solid #ccc; z-index:800;}
+#header.active:after {content:''; position: absolute; top: 80px; left: 0;
+width: 100%; height: 49px;  background: #fff; border-bottom: 1px solid #ccc;}
+.logo {padding: 14px 0; z-index:100;}
+
+/* gnb */
+#header .area { width: 1224px; margin:0 auto; }
+#gnb { background: #666;}
+#gnb > ul  {float: right; z-index:60; width: 500px; height: 79px; margin: 0 auto; }
+#gnb > ul > li +li {margin-left: 30px;}
+#gnb > ul > li {position: relative;}
+#gnb > ul > li > a  { height: 77px; line-height: 77px; border-bottom: 2px solid transparent;}
+
+#gnb ul li ul {position: absolute; top: 80px; left: 0; z-index:100; width: 300px;}
+#gnb ul li ul li {float: left; }
+#gnb ul li { float: left; font-family: 'BMYEONSUNG'; font-size: 25px;}
+#gnb ul li a {display: inline-block;}
+#gnb ul li ul li + li {margin-left: 30px;}
+
+#gnb ul li ul li a {text-align: center; font-size: 19px; height: 49px; line-height: 49px; color: #777;}
+#gnb ul li ul li a:hover, #gnb ul li ul li a:focus, #gnb ul li ul li.on a{color: #333;}
+#gnb >ul >li:hover > a,#gnb >ul >li > a:focus,#gnb >ul> li.on > a {color: #54ad9b; border-bottom-color: #54ad9b;}
+
+/* transition */
+#gnb > ul > li > a, #gnb ul li ul li a,#cnt6 .area .go > a:after {transition: all 0.3s;}
+
+/* footer */
+#footer {background: #333333; height: 400px; color: #fff;font-size: 14px; color: #ccc; }
+#footer .up {float: left; width: 100%; padding: 50px 0 25px; border-bottom: 1px solid #ccc;}
+#footer .up .left {float: left; color: #54ad9b;}
+#footer .up .left h5 {font-size: 25px; font-weight: 400;padding-bottom: 7px;}
+#footer .up .left p {font-size: 40px; font-family: 'TmonMonsori';}
+#footer .up .right ul {padding-top: 45px;}
+#footer .up .right ul li { float: left; padding-left: 13px;}
+#footer .up .right ul li a {display: block;  width: 36px;height: 36px; background:no-repeat center;transition: all 0.3s;}
+#footer .up .right ul li:nth-child(1) a {background:url("../images/common/footer_facebook_nor.png");}
+#footer .up .right ul li:nth-child(2) a {background:url("../images/common/footer_instagram_nor.png");}
+#footer .up .right ul li:nth-child(3) a {background:url("../images/common/footer_youtube_nor.png");}
+#footer .up .right ul li:nth-child(4) a {background:url("../images/common/footer_blog_nor.png");}
+#footer .up .right ul li:nth-child(1) a:hover {background:url("../images/common/footer_facebook_over.png");}
+#footer .up .right ul li:nth-child(2) a:hover {background:url("../images/common/footer_instagram_over.png");}
+#footer .up .right ul li:nth-child(3) a:hover {background:url("../images/common/footer_youtube_over.png");}
+#footer .up .right ul li:nth-child(4) a:hover {background:url("../images/common/footer_blog_over.png");}
+
+
+#footer .up .right {float:right;}
+#footer .down {float: left; width: 100%; padding-top: 25px;}
+#footer .down address {line-height: 19px; padding-bottom: 15px;}

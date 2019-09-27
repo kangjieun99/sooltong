@@ -1,0 +1,76 @@
+@charset "utf-8";
+em {font-style: normal;}
+#section { background: #a4cb50; }
+#section #minislider {width: 1224px;height: 460px; margin: 0 auto; overflow: hidden;}
+#section #minislider ul {width: 3700px; }
+#section #minislider ul li{float: left;}
+#section #minislider button {border:none; position: absolute; top: 300px;width: 33px; height: 62px;}
+#prev {left: 370px; background: url("../images/sub/sub2_info/prev.png")no-repeat;}
+#next {right: 370px;background: url("../images/sub/sub2_info/next.png")no-repeat;}
+
+
+/* info */
+#section .area {display: block; width: 1224px; background: #fff;  padding: 40px 60px; box-sizing: border-box; font-weight: 400;}
+#section .area .info .cnt1 {border-bottom: 1px solid #ccc;}
+#section .area .info .left {float: left;}
+#section .area .info .left h4 {font-size: 35px; margin-bottom: 10px;}
+#section .area .info .left p {padding-top: 8px;}
+#section .area .info .right {float:right;}
+#section .area .info .right a {display: block; font-size: 25px; font-weight: 500; width: 160px;height: 75px; background: #447ad2; color: #fff; border-radius: 13px; text-align:center; line-height: 75px;}
+#section .area .info .right a.seat {background: #54ad9b; margin-top: 10px; margin-bottom: 55px;}
+
+/* cnt2 */
+.cnt2 {}
+.cnt2 .review {border-bottom: 1px solid #ccc; font-size: 20px; padding: 35px 0; font-weight: 500;}
+.cnt2 .review h4 {float: left; font-weight: 500;}
+.cnt2 .review h4 span{color: #54ad9b;}
+.cnt2 .review a {float:right; background: url("../images/sub/sub2_info/more.png")no-repeat right center; padding-right: 27px;}
+
+.cnt2 .star {height: 200px; }
+.cnt2 .star > div { height: 200px; padding: 45px 0; box-sizing: border-box; border-bottom: 1px solid #ccc; float: left; width: 50%; text-align:center;}
+.cnt2 .star > div:nth-child(1) {padding: 82px 0;}
+
+
+
+.cnt2 .review_box {width: 1300px;}
+.cnt2 .review_box > div{padding: 30px; box-sizing: border-box; text-align:center; width: 380px; height: 200px; border: 1px solid #ccc; float: left; margin: 38px 43px 60px 0; }
+.cnt2 .review_box > div span {font-weight: 500; margin-left: 80px; margin-bottom: 12px; display: block; padding-left: 80px; width: 130px; height: 23px; line-height: 25px; background: url("../images/sub/sub1_category/star.png")no-repeat left center;}
+.cnt2 .review_box > div p {padding-top: 20px;}
+.cnt2 .review_box > div em {padding-top: 10px; display: block;}
+
+
+
+/* cnt3 */
+.cnt3 {}
+.cnt3 .location {}
+.cnt3 .location h4{font-size: 20px; margin-bottom: 35px; font-weight: 500;}
+.cnt3 .location >p {font-size: 20px; font-weight: 500; padding: 28px 0 41px;}
+.cnt3 .location .subway {height: 110px; border-bottom: 1px solid #ccc; font-weight: 500;}
+.cnt3 .location .subway .sub1,.cnt3 .location .subway .sub2  {float: left; width: 50%;}
+.cnt3 .location .subway .sub1 >div{}
+.cnt3 .location .subway .sub1 >div + div,.cnt3 .location .subway .sub2 >div + div{padding-top: 30px;}
+.cnt3 .location .subway .sub1 >div em{ background: url("../images/sub/sub2_info/line2.png")no-repeat left center; padding-left: 20px; margin-left: 20px; }
+.cnt3 .location .subway .sub1 >div p ,.cnt3 .location .subway .sub2 >div p{display: inline; margin-left: 300px;}
+.cnt3 .location .subway .sub2 >div {}
+.cnt3 .location .subway .sub2 >div em{background: url("../images/sub/sub2_info/line3.png")no-repeat left center; padding-left: 20px; margin-left: 20px; }
+
+/* cnt4 */
+.cnt4 h4 {font-size: 20px; font-weight: 500; padding: 40px 0 25px; }
+.cnt4 h4 span {color: #54ad9b;}
+.cnt4 .slider {overflow: hidden; position: relative;}
+.cnt4 .slider ul{width: 4000px; margin-bottom: 100px;}
+.cnt4 .slider ul li{float: left; margin-right: 10px;border: 1px solid #ccc; box-sizing: border-box; padding: 10px;}
+.cnt4 .slider ul li a{font-weight: 500;}
+.cnt4 .slider ul li a p {padding-top: 15px;}
+.cnt4 .slider ul li a span{font-size: 14px;}
+.cnt4 .slider button {border:none; position: absolute; top:50px;width: 50px; height: 50px; }
+#prev2 {left: 0; background: url("../images/sub/sub2_info/prev2.png")no-repeat center; }
+#next2 {right: 0;background: url("../images/sub/sub2_info/next2.png")no-repeat center;}
+
+
+
+
+
+
+
+
