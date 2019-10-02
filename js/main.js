@@ -74,5 +74,11 @@ $(document).ready(function () {
         $(this).parent('button').siblings('turn').addClass('on');
     });
 
+    //돌림판
+	$('#cnt5 .area .round button').on('click',function(){
+		var idx = $(this).index();
+		if (idx == 1) $("#cnt5 .area div img").addClass('rotate');
+	});
+
 
 });

@@ -73,13 +73,6 @@ $(document).ready(function (){
 		window.open(popup, 'pop', 'left=400, top =200, width=1000 , height=600');
 		return false;
 	});
-
-	//돌림판
-	$('#cnt5 .area .button button').on('click',function(){
-		var idx = $(this).index();
-		if (idx == 1) $("#cnt5 .area div img").addClass('rotate');
-	});
-
 	//더보기
 
 	 /* 문서 로딩시 보여지도록 함수 호출
@@ -113,6 +106,9 @@ $(document).ready(function (){
 		console.log('남겨진 리스트들의 개수 : ' + more_length, ', 추가될 리스트 개수 : ' +  more_total_cnt);
 
 	}	
+	
+
+	
 
 });
 	  

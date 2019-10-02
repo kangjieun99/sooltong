@@ -136,11 +136,11 @@ box-sizing: border-box; border-radius: 35px; margin-left: 203px; margin-top: 50p
     100% {transform: rotateZ(2000deg);}
 }
 
-#cnt5 .area .button {margin-top: 10px; width: 500px; text-align: center; margin: 0 auto;}
-#cnt5 .area .button button {font-family: 'BMYEONSUNG';  color: #fff; border:none; 
+#cnt5 .area .round {margin-top: 10px; width: 500px; text-align: center; margin: 0 auto;}
+#cnt5 .area .round button {font-family: 'BMYEONSUNG';  color: #fff; border:none; 
 border-radius: 35px; background: #139a7a; font-size: 25px; margin: 0; width: 200px;
 height: 60px; line-height:60px; }
-#cnt5 .area .button button + button {margin-left: 20px;}
+#cnt5 .area .round button + button {margin-left: 20px;}
 #cnt5 .area .list {position: absolute;top: 0;right: 0; width: 220px; height: 320px; 
 background: #fff; }
 #cnt5 .area .list p {font-size: 35px; padding: 30px 60px 25px; text-align: center;}
