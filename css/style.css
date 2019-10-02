@@ -19,8 +19,9 @@ border-radius: 37px; margin-bottom: 50px; }
 
 /* 요즘 뜨는 곳 */
 #category .hot {height: 450px; }
-#category h3 {font-size: 25px; font-weight: 500; margin: 43px 0 15px; display: block;}
+#category h3 {font-size: 25px; font-weight: 500; margin: 55px 0 15px; display: block;}
 #category .hot > div {position: relative; float: left; width: 49%; margin-left:0; box-sizing: border-box;}
+
 /* + 효과 */
 #category .hot > div a {display: block; width: 599.75px; height: 400.48px; position: relative;}
 #category .hot > div a:after,#category .hot > div a:before {
@@ -66,10 +67,18 @@ border-radius: 37px; margin-bottom: 50px; }
 
 /* 분위기좋은 */
 #category .good  {margin-bottom: 100px;}
-#category .good .list {font-weight: 400;}
-#category .good .list > div{float: left; width: 32.66%; margin-bottom: 40px; height: 320px;}
+#category .good .list {font-weight: 400; margin-bottom: 40px;}
+#category .good .list > div{float: left; width: 32.66%; margin-bottom: 40px; height: 330px;}
 #category .good .list div + div {margin-left: 1%;}
 #category .good .list .text{width: 100%;}
+#listwrap .list .load {display: none;}
+#listwrap .list .load.active {display: block;}
+
+/* 더보기 효과 */
+.btn-wrap {margin-top: 80px; }
+.btn-wrap .button {width: 280px; height: 60px; display: block;border: 1px solid #000; text-align: center; font-size: 20px; line-height: 60px; border-radius: 20px; font-weight: 500; margin-left: 470px; transition: all 0.3s; background: #fff;}
+.btn-wrap .button:hover { color: #fff; background: #a4cb50; border: 1px solid #a4cb50;}
+
 
 /* + 효과 */
 #category .list > div a {display: block; width: 399.75px; height: 265px; position: relative; }

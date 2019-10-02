@@ -13,7 +13,7 @@ background: #fff;}
 #cnt5 {background: #f4ebda;}
 #cnt6 {background:url("../images/main/funny_background.jpg")no-repeat center;}
 
-#cnt1 #deco{animation:up 1.5s infinite;}
+#cnt1 #deco{animation:up 2s infinite;}
 @keyframes up{
     0% {transform:translateY(0px);}
     50% {transform:translateY(-40px);}
@@ -33,12 +33,17 @@ background: #fff;}
 #cnt1 {}
 #multislider {position: absolute; left: 0; bottom: 50px; height: 230px; width: 100%; overflow: hidden;}
 
-#multislider .prev_next button{position:absolute;top: 50%;left: 50%;margin-top: -20px;width: 24px;height: 40px;z-index: 10}
-#multislider .prev_next .prev{margin-left: -540px;}
-#multislider .prev_next .next{margin-left: 500px;}
+#multislider .prev_next button{position:absolute;top: 50%;left: 50%;margin-top: -20px;width: 50px;height: 50px;z-index: 10; border:none; border-radius:50%;
+    box-shadow: 4px 4px 9px rgba(0,0,0,0.8);}
+#multislider .prev_next .prev{margin-left: -620px; background:#fff url("../images/main/prev.png")no-repeat center center;}
+#multislider .prev_next .next{margin-left: 560px; background:#fff url("../images/main/next.png")no-repeat center center;}
 
 #multislider .visual {position: relative; width: 8323px; height: 230px;}
 #multislider .visual li {float: left; margin-right: 15px;}
+#multislider .visual a {width: 272px; height: 230px; display: block;}
+#multislider .visual .text {z-index:1000; }
+#multislider .visual .text h4 {}
+#multislider .visual .text p {}
 
 
 
@@ -64,7 +69,7 @@ background: #fff;}
 background: url("../images/common/arrow.png")no-repeat right center; display: inline-block;
 font-size: 17px; font-weight: 400;}
 #cnt2 .area .video_box .box_up {float: left; width: 713px; height: 56px; background: #a4cb50; border: 1px solid #000;box-sizing: border-box;}
-#cnt2 .area .video_box a .box_down {float: left; width: 694px; height: 392px;  margin-left: 9px; border: 1px solid #000;box-sizing: border-box; border-top:none; background: #fff url("../images/main/play.png")no-repeat center;}
+#cnt2 .area .video_box a .box_down {float: left; width: 695px; height: 393px;  margin-left: 9px; border: 1px solid #000; box-sizing: border-box; border-top:none;}
 
 
 
@@ -78,7 +83,6 @@ font-size: 17px; font-weight: 400;}
 #cnt3 .area .category .left > ul > li > a{width: 80px;}
 #cnt3 .area .category .left  ul  li .text {width: 100%; height: 100%; background: rgba(0,0,0,0.4); position:absolute; top: 0; left: 0; color: #fff;
  font-size: 30px;box-sizing: border-box; transition: all 0.3s;}
-
 #cnt3 .area .category .left  ul  li .text h4 {margin-top: 100px; font-weight: 300;
 text-align:center; line-height: 37px; box-sizing: border-box; }
 #cnt3 .area .category .left > ul > li > a,#cnt3 .area .category .right > ul > li > a {font-size: 20px; padding: 15px 0;}
@@ -125,13 +129,11 @@ box-sizing: border-box; border-radius: 35px; margin-left: 203px; margin-top: 50p
 #cnt5 {position:relative;font-family: 'BMYEONSUNG';}
 #cnt5  h2 {text-align:center; padding: 50px 0 35px;}
 #cnt5 .area {width: 1224px; position:relative; }
-#cnt5 .area img {display: block; margin: 0 auto;  margin-bottom: 25px;
- animation: rotate20 13s infinite;}
-
+#cnt5 .area img {display: block; margin: 0 auto;  margin-bottom: 25px;}
+#cnt5 .area img.rotate {animation:rotate20 5s 1;}
 @keyframes rotate20 {
     0% {transform: rotateZ(0deg);}
-    50% {transform: rotateZ(3000deg);}
-    100% {transform: rotateZ(0deg);}
+    100% {transform: rotateZ(2000deg);}
 }
 
 #cnt5 .area .button {margin-top: 10px; width: 500px; text-align: center; margin: 0 auto;}
@@ -139,7 +141,7 @@ box-sizing: border-box; border-radius: 35px; margin-left: 203px; margin-top: 50p
 border-radius: 35px; background: #139a7a; font-size: 25px; margin: 0; width: 200px;
 height: 60px; line-height:60px; }
 #cnt5 .area .button button + button {margin-left: 20px;}
-#cnt5 .area .list {position: absolute;top: 0;right: 0; width: 220px; height: 446px; 
+#cnt5 .area .list {position: absolute;top: 0;right: 0; width: 220px; height: 320px; 
 background: #fff; }
 #cnt5 .area .list p {font-size: 35px; padding: 30px 60px 25px; text-align: center;}
 #cnt5 .area .list div {border: 1px solid #333; width: 175px; height: 53px; margin: 0 24px 15px;}

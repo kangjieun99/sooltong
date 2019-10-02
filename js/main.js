@@ -1,7 +1,7 @@
 $(document).ready(function () {
+
     var $multiSlider = $('#multislider');
     var $visualEle = $multiSlider.find('.visual li');
-
     var oneSize = $visualEle.outerWidth(true);	//li 하나 크기
     var totalNum = $visualEle.length;					//복제 전 전체 li수
     var viewMax = 7;	//한 화면에 보여질 수
@@ -52,8 +52,8 @@ $(document).ready(function () {
     //자동실행
     function autoPlay() {
         timer = setInterval(function () {
-            nextAni(1300, '자동실행');
-        }, 1300);
+            nextAni(1500, '자동실행');
+        }, 1500);
         console.log(timer);
     }
     autoPlay();
@@ -69,4 +69,10 @@ $(document).ready(function () {
             if (!timer) autoPlay();
         }
     });
+
+    $("#cnt5 .area .button").on('click',function(){
+        $(this).parent('button').siblings('turn').addClass('on');
+    });
+
+
 });

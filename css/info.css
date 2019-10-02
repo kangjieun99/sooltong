@@ -53,6 +53,7 @@ em {font-style: normal;}
 .cnt3 .location .subway .sub1 >div p ,.cnt3 .location .subway .sub2 >div p{display: inline; margin-left: 300px;}
 .cnt3 .location .subway .sub2 >div {}
 .cnt3 .location .subway .sub2 >div em{background: url("../images/sub/sub2_info/line3.png")no-repeat left center; padding-left: 20px; margin-left: 20px; }
+.cnt3 .location iframe {border:none;}
 
 /* cnt4 */
 .cnt4 h4 {font-size: 20px; font-weight: 500; padding: 40px 0 25px; }
