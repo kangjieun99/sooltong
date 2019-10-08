@@ -3,7 +3,7 @@ em {font-style: normal;}
 #section { background: #a4cb50; }
 #section #minislider {width: 1224px;height: 460px; margin: 0 auto; overflow: hidden;}
 #section #minislider ul {width: 3700px; }
-#section #minislider ul li{float: left;}
+#section #minislider ul li{float: left; width: 612px;}
 #section #minislider button {border:none; position: absolute; top: 300px;width: 33px; height: 62px;}
 #prev {left: 370px; background: url("../images/sub/sub2_info/prev.png")no-repeat;}
 #next {right: 370px;background: url("../images/sub/sub2_info/next.png")no-repeat;}
