@@ -39,9 +39,10 @@ background: #fff;}
 #multislider .prev_next .next{margin-left: 560px; background:#fff url("../images/main/next.png")no-repeat center center;}
 
 #multislider .visual {position: relative; width: 8323px; height: 230px;}
-#multislider .visual li {float: left; margin-right: 15px;}
+#multislider .visual > li {float: left; margin-right: 15px;}
 #multislider .visual a {width: 272px; height: 230px; display: block;}
-#multislider .visual .text {z-index:1000; }
+#multislider .visual li a img {}
+#multislider .visual li a .txt h4{}
 #multislider .visual .text h4 {}
 #multislider .visual .text p {}
 
